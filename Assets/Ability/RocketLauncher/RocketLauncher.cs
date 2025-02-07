@@ -1,7 +1,4 @@
-using BigRookGames.Weapons;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class RocketLauncher : MonoBehaviour, IAbility
 {
@@ -9,6 +6,7 @@ public class RocketLauncher : MonoBehaviour, IAbility
     public      float           _distanceToTarget           { get; set; }
     public      AbilityStats    _stats                      { get; set; }
     public      Transform       _target;
+    private     CastConditions  _castCondition;
 
     public RocketLauncher()
     {
@@ -20,19 +18,17 @@ public class RocketLauncher : MonoBehaviour, IAbility
         _stats = stats;
         _transform = rocketLauncher;
         _distanceToTarget = distanceToTarget;
+        _castCondition = new CastConditions();
     }
 
     public bool CastCondition()
     {
-        Collider[] playerCol = Physics.OverlapSphere(_transform.position, 8f, LayerMask.GetMask("Player"));
-        if (playerCol.Length != 0)
-        {
-            _target = playerCol[0].transform;
-            return true;
-        }
-        
-        return false;
+        _target = _castCondition.InAttackRange(_transform, _stats);
+
+        if(_target != null) return true;
+        else return false;
     }
+
     public void Activate()
     {
         SpawnRocket();

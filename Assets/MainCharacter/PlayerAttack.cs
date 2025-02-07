@@ -137,10 +137,12 @@ public class PlayerAttack : MonoBehaviour, IAttack
             ylprj = prj.AddComponent<YellowProjectile>();
             ProjectileMove += () => ylprj.Move();
         }
-        ylprj.Init(_target, _projectileSpeed, TimeToTarget(), _projectilePool);
-        
-        
+        ylprj.Init(FixTargetPosition(), _projectileSpeed, TimeToTarget(), _projectilePool);
+    }
 
+    public Vector3 FixTargetPosition()
+    {
+        return new Vector3(_target.transform.position.x, _target.transform.position.y + 1f, _target.transform.position.z);
     }
 
     public float TimeToTarget()

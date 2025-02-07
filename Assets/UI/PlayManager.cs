@@ -30,7 +30,8 @@ public class PlayManager : Singleton<PlayManager>
         //SpawnManager.Instance.SpawnMonsters("Female_2", 2);
         //SpawnManager.Instance.SpawnMonsters("Female_1", 2);
         //SpawnManager.Instance.SpawnMonsters("MaleA_1", 2);
-        SpawnManager.Instance.SpawnMonsters("Soldier", 1);
+        SpawnManager.Instance.SpawnMonsters("Terrorist", 1);
+        //SpawnManager.Instance.SpawnMonsters("Soldier", 1);
     }
 
     public void ResetSpawnEnemy()

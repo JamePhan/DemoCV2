@@ -57,6 +57,12 @@ public class SoundManager : Singleton<SoundManager>
         DictSounds["RocketSpawn"].Play();
     }
 
+    public void BulletSpawn()
+    {
+        DictSounds["AK"].Play();
+    }
+
+
     public void RocketExplosion()
     {
         DictSounds["RocketExplosion"].Play();

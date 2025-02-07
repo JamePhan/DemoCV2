@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1aa744a2c2537c64597043f9ae3c1239, type: 3}
-  m_Name: Soldier
+  m_Name: Terrorist
   m_EditorClassIdentifier: 
-  Name: Soldier
-  EnemyType: 2
-  Health: 1500
+  Name: Terrorist
+  EnemyType: 0
+  Health: 800
   Damage: 0
-  cooldownAttack: 9
+  cooldownAttack: 6
   moveSpeed: 0.03
-  gold: 100
-  atkRange: 8
+  gold: 175
+  atkRange: 7
   haveAbility: 1
-  ability: 0
+  ability: 2

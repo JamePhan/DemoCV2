@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1aa744a2c2537c64597043f9ae3c1239, type: 3}
-  m_Name: Soldier
+  m_Name: FlameThrower
   m_EditorClassIdentifier: 
-  Name: Soldier
-  EnemyType: 2
-  Health: 1500
+  Name: FlameThrower
+  EnemyType: 0
+  Health: 600
   Damage: 0
-  cooldownAttack: 9
-  moveSpeed: 0.03
-  gold: 100
-  atkRange: 8
-  haveAbility: 1
+  cooldownAttack: 5
+  moveSpeed: 0.02
+  gold: 250
+  atkRange: 5
+  haveAbility: 0
   ability: 0

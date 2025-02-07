@@ -24,7 +24,7 @@ public class ProjectileController : MonoBehaviour
     public Vector3 _target;
     public int _damage;
 
-    private void Update()
+    private void FixedUpdate()
     {
         // --- Check to see if the target has been hit. We don't want to update the position if the target was hit ---
         if (targetHit) return;
@@ -35,23 +35,25 @@ public class ProjectileController : MonoBehaviour
         {
             transform.rotation = Quaternion.LookRotation(direction);
         }
-        Collider[] playerCol = Physics.OverlapSphere(transform.position, 0.5f, LayerMask.GetMask("Player"));
-        
-        if (playerCol.Length != 0)
+        if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, 0.5f, LayerMask.GetMask("Player", "Wall")))
         {
-            Attack(playerCol);
+            if (hit.transform == null) return;
+
+            if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Player"))
+            {
+                Collider[] newCol = new Collider[1] { hit.collider };
+                Attack(newCol);
+            }
             Explosion();
         }
-        if (transform.position == _target) 
-        { 
-            Explosion();
-        }
-        
+        if (transform.position == _target) Explosion();
     }
+
+
 
     public void SetTarget(Vector3 target)
     {
-        _target = target;
+        _target = new Vector3(target.x, target.y +1f, target.z);
     }
 
     public void SetDamage(int damage)

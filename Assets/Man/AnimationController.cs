@@ -75,7 +75,7 @@ public class AnimationController
         switch (type)
         {
             case EnemyType.Male:
-
+                MaleShoot();
                 break;
 
             case EnemyType.Female:
@@ -95,7 +95,7 @@ public class AnimationController
 
     public void MaleRun()
     {
-        
+        animator.Play("Run");
     }
 
     public void MaleDie()
@@ -154,5 +154,10 @@ public class AnimationController
     public void SoldierShoot()
     {
         animator.Play("Soldier_Shoot");
+    }
+
+    public void MaleShoot()
+    {
+        animator.Play("Shoot");
     }
 }

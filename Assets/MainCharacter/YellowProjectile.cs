@@ -14,9 +14,9 @@ public class YellowProjectile : MonoBehaviour
         StartCoroutine(DestroyProjectile());
     }
 
-    public void Init(Transform target, int speed, float time, Spawner pool)
+    public void Init(Vector3 target, int speed, float time, Spawner pool)
     {
-        _target = target.transform.position;
+        _target = target;
         _speed = speed;
         _time = time;
         _pool = pool;

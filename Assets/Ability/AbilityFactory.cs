@@ -18,6 +18,7 @@ public class AbilityFactory
         abilityDictionary = new Dictionary<Abilities, Func<Ability>>
         {
             { Abilities.RocketLauncher, () => CreateAbility<RocketLauncher>() },
+            { Abilities.OneProjectile, () => CreateAbility<OneProjectile>() },
         };
     }
 
