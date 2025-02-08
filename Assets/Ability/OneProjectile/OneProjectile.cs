@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class OneProjectile : MonoBehaviour, IAbility
 {
-    public Transform _transform { get ; set ; }
+
     public float _distanceToTarget { get ; set ; }
     public AbilityStats _stats { get ; set ; }
     public Transform _target;
@@ -13,10 +13,10 @@ public class OneProjectile : MonoBehaviour, IAbility
 
     }
 
-    public void SetAbilityStats(AbilityStats stats, Transform rocketLauncher, float distanceToTarget)
+    public void SetAbilityStats(AbilityStats stats, float distanceToTarget)
     {
         _stats = stats;
-        _transform = rocketLauncher;
+
         _distanceToTarget = distanceToTarget;
         _castCondition = new CastConditions();
     }
@@ -28,7 +28,7 @@ public class OneProjectile : MonoBehaviour, IAbility
 
     public bool CastCondition()
     {
-        _target = _castCondition.InAttackRange(_transform, _stats);
+        _target = _castCondition.InAttackRange(transform, _stats);
 
         if (_target != null) return true;
         else return false;

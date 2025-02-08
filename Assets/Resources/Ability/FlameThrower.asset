@@ -9,16 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aa744a2c2537c64597043f9ae3c1239, type: 3}
+  m_Script: {fileID: 11500000, guid: 0778a930da0fcdf4da3b4b6203c34da6, type: 3}
   m_Name: FlameThrower
   m_EditorClassIdentifier: 
-  Name: FlameThrower
-  EnemyType: 0
-  Health: 600
-  Damage: 0
-  cooldownAttack: 0
-  moveSpeed: 0.02
-  gold: 250
-  atkRange: 5
-  haveAbility: 1
-  ability: 1
+  skillSprite: {fileID: 0}
+  nameAbility: FlameThrower
+  cooldownTime: 0
+  durationTime: 0
+  keyBoard: 
+  AbilityType: 0
+  abilityHpAmount: 0
+  abilityDamage: 30
+  abilityRadiusDamage: 5
+  abilitySpeedAmount: 0
+  abilityRadiusCC: 0

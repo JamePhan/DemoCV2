@@ -15,11 +15,6 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 0a364e9c5e3f0204b9b62c5da7d28be1
   m_SerializeEntries:
-  - m_GUID: 899bf802bd8b9324393506357ee49c3d
-    m_Address: Assets/Ability/FlameThrower/FlameThrower.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a7fe3d87360512449bbfb9d2030318c9
     m_Address: Assets/Prefabs/Red_Projectile.prefab
     m_ReadOnly: 0

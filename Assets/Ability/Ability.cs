@@ -47,14 +47,15 @@ public class Ability
 
     public void Ready()
     {
-        if (CastCondition() && canCast)
-        {
-            Activate();
-            EffectActivate();
-            duration = DurationTime;
-            AbilityManager.abilityActiveDelegete += Cast;
-            canCast = false;
-        }
+        if (!canCast) return;
+        if (!CastCondition()) return;
+
+        Activate();
+        EffectActivate();
+        duration = DurationTime;
+        AbilityManager.abilityActiveDelegete += Cast;
+        canCast = false;
+
     }
 
     public void Cast()

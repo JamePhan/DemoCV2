@@ -19,6 +19,7 @@ public class AbilityFactory
         {
             { Abilities.RocketLauncher, () => CreateAbility<RocketLauncher>() },
             { Abilities.OneProjectile, () => CreateAbility<OneProjectile>() },
+            { Abilities.FlameThrower, () => CreateAbility<FlameThrower>() },
         };
     }
 
@@ -38,7 +39,7 @@ public class AbilityFactory
         //T abilityInstance = new T();
         T abilityInstance = _transform.AddComponent<T>();
         //T abilityInstance = _transform.GetComponent<T>();
-        abilityInstance.SetAbilityStats(_enemy.abilityStats, _transform, 5f);
+        abilityInstance.SetAbilityStats(_enemy.abilityStats, 5f);
 
         Ability _ability = new Ability(
             abilityInstance.CastCondition,
