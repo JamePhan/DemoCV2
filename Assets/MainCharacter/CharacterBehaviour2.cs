@@ -3,7 +3,7 @@ using Terresquall;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class CharacterBehaviour2 : MonoBehaviour, IDamageable
+public class CharacterBehaviour2 : Singleton<CharacterBehaviour2>, IDamageable
 {
     public delegate void PlayerDieDelegate();
     public static event PlayerDieDelegate Del_PlayerDie;

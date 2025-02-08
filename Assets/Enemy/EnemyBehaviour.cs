@@ -179,6 +179,7 @@ public class EnemyBehaviour : MonoBehaviour, IDamageable, IAttack
         Die();
     }
 
+
     public void Die()
     {
         gameObject.layer = LayerMask.NameToLayer("Corpse");

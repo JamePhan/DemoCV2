@@ -9,6 +9,7 @@ public class PanelManager : Singleton<PanelManager>
     public Button _btn_Inventory;
     public Button _btn_Character;
     public Button _btn_Play;
+    public Button _btn_Exit;
 
     [Header("Panels")]
     public List<PanelModel> ListOfPanel;
@@ -21,6 +22,7 @@ public class PanelManager : Singleton<PanelManager>
         _btn_Inventory.onClick.AddListener(() => ShowPanel("Panel_Inventory"));
         _btn_Character.onClick.AddListener(() => ShowPanel("Panel_Character"));
         _btn_Play.onClick.AddListener(() => ShowPanel("Panel_Play"));
+        _btn_Exit.onClick.AddListener(() => Application.Quit());
     }
 
     public PanelModel GetPanelById(string panelId)

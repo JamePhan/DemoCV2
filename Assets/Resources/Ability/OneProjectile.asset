@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillSprite: {fileID: 0}
   nameAbility: OneProjectile
-  cooldownTime: 6
+  cooldownTime: 7
   durationTime: 0
   keyBoard: 
   AbilityType: 0

@@ -25,8 +25,9 @@ public class SpawnManager : Singleton<SpawnManager>
 
     public void Init()
     {
+        GameManager.resetGameDelegate += IsGameReset;
         InitDictEnemySpawn();
-        _radius = 30f;
+        _radius = 40f;
     }
 
     public void InitDictEnemySpawn()
@@ -42,6 +43,11 @@ public class SpawnManager : Singleton<SpawnManager>
     void FixedUpdate()
     {
         playerPosDelegate?.Invoke(_player.transform.position);
+    }
+
+    public void IsGameReset()
+    {
+        playerPosDelegate = null;
     }
 
     public void SpawnMonsters(string enemy, int amount)

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: FlameThrower
   EnemyType: 0
-  Health: 600
+  Health: 550
   Damage: 0
   cooldownAttack: 0
   moveSpeed: 0.02

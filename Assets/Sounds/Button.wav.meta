@@ -19,3 +19,10 @@ AudioImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/Sounds/Button.wav
+  uploadId: 671655

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Soldier
   EnemyType: 2
-  Health: 1500
+  Health: 1200
   Damage: 0
-  cooldownAttack: 9
+  cooldownAttack: 0
   moveSpeed: 0.03
   gold: 100
   atkRange: 8

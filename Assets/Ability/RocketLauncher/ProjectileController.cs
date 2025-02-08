@@ -3,7 +3,7 @@
 public class ProjectileController : MonoBehaviour
 {
     // --- Config ---
-    public float speed = 100;
+    public float speed = 20;
     public LayerMask collisionLayerMask;
 
     // --- Explosion VFX ---

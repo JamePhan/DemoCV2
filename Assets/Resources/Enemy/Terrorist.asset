@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Terrorist
   EnemyType: 0
-  Health: 800
+  Health: 750
   Damage: 0
   cooldownAttack: 6
   moveSpeed: 0.03

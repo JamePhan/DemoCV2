@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: John
   m_EditorClassIdentifier: 
   Name: John
-  Health: 16000
+  Health: 1
   Damage: 60
   AttackSpeed: 0.7
   MoveSpeed: 5
