@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Bob
   m_EditorClassIdentifier: 
   Name: Bob
-  Health: 10000
-  Damage: 60
-  AttackSpeed: 0.7
+  Health: 5000
+  Damage: 55
+  AttackSpeed: 0.6
   MoveSpeed: 6
   AttackRange: 8
   PercentExpBonusEarn: 0

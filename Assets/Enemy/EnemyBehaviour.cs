@@ -176,7 +176,7 @@ public class EnemyBehaviour : MonoBehaviour, IDamageable, IAttack
     public void IsGameReset()
     {
         _isGameReseting = true;
-        Die();
+        Destroy(gameObject);
     }
 
 
@@ -185,8 +185,15 @@ public class EnemyBehaviour : MonoBehaviour, IDamageable, IAttack
         gameObject.layer = LayerMask.NameToLayer("Corpse");
         _isDead = true;
         animController.Die();
+        
         if (!_isGameReseting) GainCoin();
         if (gameObject.activeSelf) StartCoroutine(Kill());
+    }
+
+    private void OnDisable()
+    {
+        SpawnManager.playerPosDelegate -= Move;
+        GameManager.resetGameDelegate -= IsGameReset;
     }
 
     public void GainCoin()

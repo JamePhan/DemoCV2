@@ -1,0 +1,445 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: -c;--target=armv7-none-linux-androideabi23 
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+clang: warning: argument unused during compilation: '-Aa' [-Wunused-command-line-argument]
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: -c;--target=armv7-none-linux-androideabi23 
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+clang: warning: argument unused during compilation: '-Aa' [-Wunused-command-line-argument]
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+CMakeCCompilerId.c:26:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+clang: error: no input files
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+clang: error: no input files
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: -c;--target=armv7-none-linux-androideabi23 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:20:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:20:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:20:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+clang++: error: unsupported option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+clang++: error: unsupported option '--ec++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:20:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:20:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: -c;--target=armv7-none-linux-androideabi23 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:20:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:20:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:20:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+clang++: error: unsupported option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+clang++: error: unsupported option '--ec++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:20:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:20:51: error: expected ';' after top level declarator
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+                                                  ^
+                                                  ;
+1 error generated.
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+clang++: error: no input files
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+clang++: error: no input files
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/[U] Unity Project/DemoCV/DemoCV2/.utmp/RelWithDebInfo/5s21533t/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja.exe cmTC_1028f && [1/2] Building C object CMakeFiles\cmTC_1028f.dir\CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_1028f
+FAILED: cmTC_1028f 
+cmd.exe /C "cd . && "D:\[U] Unity\6000.0.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\NDK\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe"   CMakeFiles\cmTC_1028f.dir\CMakeCCompilerABI.c.o -o cmTC_1028f   && cd ."
+lld: error: unable to find library -lmingw32
+lld: error: unable to find library -lgcc
+lld: error: unable to find library -lgcc_eh
+lld: error: unable to find library -lmoldname
+lld: error: unable to find library -lmingwex
+lld: error: unable to find library -lmsvcrt
+lld: error: unable to find library -ladvapi32
+lld: error: unable to find library -lshell32
+lld: error: unable to find library -luser32
+lld: error: unable to find library -lkernel32
+lld: error: unable to find library -lmingw32
+lld: error: unable to find library -lgcc
+lld: error: unable to find library -lgcc_eh
+lld: error: unable to find library -lmoldname
+lld: error: unable to find library -lmingwex
+lld: error: unable to find library -lmsvcrt
+lld: error: unable to find library -lkernel32
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/[U] Unity Project/DemoCV/DemoCV2/.utmp/RelWithDebInfo/5s21533t/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/[U] Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja.exe cmTC_9b57b && [1/2] Building C object CMakeFiles\cmTC_9b57b.dir\testCCompiler.c.o
+[2/2] Linking C executable cmTC_9b57b
+FAILED: cmTC_9b57b 
+cmd.exe /C "cd . && "D:\[U] Unity\6000.0.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\NDK\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe"   CMakeFiles\cmTC_9b57b.dir\testCCompiler.c.o -o cmTC_9b57b   && cd ."
+lld: error: unable to find library -lmingw32
+lld: error: unable to find library -lgcc
+lld: error: unable to find library -lgcc_eh
+lld: error: unable to find library -lmoldname
+lld: error: unable to find library -lmingwex
+lld: error: unable to find library -lmsvcrt
+lld: error: unable to find library -ladvapi32
+lld: error: unable to find library -lshell32
+lld: error: unable to find library -luser32
+lld: error: unable to find library -lkernel32
+lld: error: unable to find library -lmingw32
+lld: error: unable to find library -lgcc
+lld: error: unable to find library -lgcc_eh
+lld: error: unable to find library -lmoldname
+lld: error: unable to find library -lmingwex
+lld: error: unable to find library -lmsvcrt
+lld: error: unable to find library -lkernel32
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+

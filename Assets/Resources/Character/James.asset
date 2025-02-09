@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: James
   m_EditorClassIdentifier: 
   Name: James
-  Health: 15000
-  Damage: 50
+  Health: 7500
+  Damage: 45
   AttackSpeed: 0.5
   MoveSpeed: 5
   AttackRange: 7

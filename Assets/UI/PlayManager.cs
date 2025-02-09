@@ -22,16 +22,17 @@ public class PlayManager : Singleton<PlayManager>
         _UI_InGame.SetActive(true);
         GameManager.Instance.ResetGameTime();
         GameManager.Instance.InitPlayer();
-        InvokeRepeating("SpawnFemale2Enemy", 5f, 15f);
-        InvokeRepeating("SpawnFemale1Enemy", 1f, 12f);
+        InvokeRepeating("SpawnFemale2Enemy", 4f, 12f);
+        InvokeRepeating("SpawnFemale1Enemy", 1f, 10f);
         InvokeRepeating("SpawnMale2Enemy", 0f, 7f);
-        InvokeRepeating("SpawnSoldier", 25f, 40f);
-        InvokeRepeating("SpawnTerrorist", 15f, 15f);
-        InvokeRepeating("SpawnFlameThrower", 10f, 20f);
+        InvokeRepeating("SpawnSoldier", 20f, 25f);
+        InvokeRepeating("SpawnTerrorist", 10f, 10f);
+        InvokeRepeating("SpawnFlameThrower", 15f, 20f);
 
         InvokeRepeating("SpawnMale2Group", 60f, 60f);
-        InvokeRepeating("SpawnSoldierGroup", 150f, 120f);
-        InvokeRepeating("SpawnTerroristGroup", 90f, 90f);
+        InvokeRepeating("SpawnSoldierGroup", 120f, 120f);
+        InvokeRepeating("SpawnTerroristGroup", 40f, 90f);
+        InvokeRepeating("SpawnMale2Group", 20f, 60f);
 
     }
 
@@ -42,12 +43,12 @@ public class PlayManager : Singleton<PlayManager>
 
     public void SpawnFemale1Enemy()
     {
-        SpawnManager.Instance.SpawnMonsters("Female_1", 1);
+        SpawnManager.Instance.SpawnMonsters("Female_1", 2);
     }
 
     public void SpawnMale2Enemy()
     {
-        SpawnManager.Instance.SpawnMonsters("MaleA_2", 1);
+        SpawnManager.Instance.SpawnMonsters("MaleA_2", 2);
     }
 
     public void SpawnSoldier()
@@ -67,7 +68,7 @@ public class PlayManager : Singleton<PlayManager>
 
     public void SpawnMale2Group()
     {
-        SpawnManager.Instance.SpawnMonsters("MaleA_2", 7);
+        SpawnManager.Instance.SpawnMonsters("MaleA_2", 6);
     }
 
     public void SpawnSoldierGroup()

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: John
   m_EditorClassIdentifier: 
   Name: John
-  Health: 1
-  Damage: 60
-  AttackSpeed: 0.7
+  Health: 5000
+  Damage: 55
+  AttackSpeed: 0.6
   MoveSpeed: 5
   AttackRange: 7
   PercentExpBonusEarn: 0

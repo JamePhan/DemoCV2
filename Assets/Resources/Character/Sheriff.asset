@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Sheriff
   m_EditorClassIdentifier: 
   Name: Sheriff
-  Health: 8500
-  Damage: 100
-  AttackSpeed: 0.9
+  Health: 4000
+  Damage: 90
+  AttackSpeed: 0.8
   MoveSpeed: 6
   AttackRange: 7
   PercentExpBonusEarn: 0

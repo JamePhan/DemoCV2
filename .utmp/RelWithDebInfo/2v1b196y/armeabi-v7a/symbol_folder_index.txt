@@ -1,0 +1,1 @@
+D:\UnityProjects\DemoCV\DemoCV2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\2v1b196y\obj\armeabi-v7a
