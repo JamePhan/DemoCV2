@@ -19,7 +19,7 @@ MonoBehaviour:
   keyBoard: 
   AbilityType: 0
   abilityHpAmount: 0
-  abilityDamage: 30
+  abilityDamage: 25
   abilityRadiusDamage: 5
   abilitySpeedAmount: 0
   abilityRadiusCC: 0

@@ -68,8 +68,6 @@ public class SpawnManager : Singleton<SpawnManager>
         {
             enemyBehaviour = enemyInit.AddComponent<EnemyBehaviour>();
             enemyBehaviour.Init(enemy, _layerMask, _damageFlash, _spawner);
-            playerPosDelegate += enemyBehaviour.Move;
-            GameManager.resetGameDelegate += enemyBehaviour.IsGameReset;
         }
 
     }

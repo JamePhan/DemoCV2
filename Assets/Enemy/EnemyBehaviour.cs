@@ -68,6 +68,8 @@ public class EnemyBehaviour : MonoBehaviour, IDamageable, IAttack
     {
         InitCheck();
         currentHealth = this.Health;
+        SpawnManager.playerPosDelegate += Move;
+        GameManager.resetGameDelegate += IsGameReset;
     }
 
     public void InitCheck()
