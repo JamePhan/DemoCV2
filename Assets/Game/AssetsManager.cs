@@ -9,7 +9,8 @@ public class AssetsManager : Singleton<AssetsManager>
     public AssetReference _rocket;
     public AssetReference _yellowProjectile;
     public AssetReference _redProjectile;
-    
+    public AssetReference _utility;
+
     public void InitPrefab(AssetReference asset, Action<GameObject> onLoaded)
     {
         var handle = Addressables.LoadAssetAsync<GameObject>(asset);

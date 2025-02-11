@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7947135355646943186}
   - component: {fileID: 909716183623588593}
   - component: {fileID: 3605774707321202529}
+  - component: {fileID: 6757838488438199756}
   m_Layer: 5
   m_Name: Utility
   m_TagString: Untagged
@@ -79,6 +80,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6757838488438199756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356035657003830029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b61e94f12bc974ea4663082b49fb6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 1630996802685020851}
+  _txtStat: {fileID: 7705379011086001951}
+  _txtUpgradeStat: {fileID: 8877936076962557416}
+  _txtPrice: {fileID: 9079069638192696785}
+  _btnUpgrade: {fileID: 6327126466376134872}
 --- !u!1 &732751682757692195
 GameObject:
   m_ObjectHideFlags: 0
