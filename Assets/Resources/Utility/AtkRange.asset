@@ -9,15 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 720119dc2aab6fd45a347a3f3707ff01, type: 3}
-  m_Name: James
+  m_Script: {fileID: 11500000, guid: d4d9702543f9c814983372f56f976b53, type: 3}
+  m_Name: AtkRange
   m_EditorClassIdentifier: 
-  Name: James
-  Health: 2000
-  Damage: 45
-  AttackSpeed: 0.5
-  MoveSpeed: 5
-  AttackRange: 7
-  PercentExpBonusEarn: 0
-  Ability1: 0
-  Ability2: 0
+  Icon: {fileID: 7790787998032004839, guid: 367b48fad0f03a441abdf76e845f28ae, type: 3}
+  UpgradeStat: 0.05
+  Price: 50

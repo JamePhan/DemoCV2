@@ -24,7 +24,6 @@ public class GameManager : Singleton<GameManager>
     protected override void InAwake()
     {
         Init();
-        ResetGameTime();
     }
 
     public void Init()

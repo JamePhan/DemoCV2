@@ -9,11 +9,12 @@ public class PlayerAttack : MonoBehaviour, IAttack
 
     [Header("Player Stats")]
     public      Character               _character;
-    public      int                     Damage { get; set; }
-    public      float                   AttackSpeed { get; set; }
-    public      float                   AttackRange { get; set; }
-    public      LayerMask               Target { get; set; }
+    public      int                     Damage          { get => _character.Damage;         set => _character.Damage        = value; }
+    public      float                   AttackSpeed     { get => _character.AttackSpeed;    set => _character.AttackSpeed   = value; }
+    public      float                   AttackRange     { get => _character.AttackRange;    set => _character.AttackRange   = value; }
+    public      LayerMask               Target          { get; set; }
     public      int                     _projectileSpeed;
+    public      float                   _atkSpeedCooldown;
 
     [Header("Other")]
     public      Transform               _target;
@@ -28,9 +29,6 @@ public class PlayerAttack : MonoBehaviour, IAttack
     public void Init(Character character, LayerMask layerMask, Animator anim)
     {
         this._character = character;
-        this.AttackSpeed = character.AttackSpeed;
-        this.Damage = this._character.Damage;
-        this.AttackRange = this._character.AttackRange;
         this.Target = layerMask;
         _projectileSpeed = 30;
 
@@ -50,11 +48,11 @@ public class PlayerAttack : MonoBehaviour, IAttack
     private void FixedUpdate()
     {
         if (!_allowAttack) return;
-        if (AttackSpeed <= 0)
+        if (_atkSpeedCooldown <= 0)
         {
             Detect();
             Attack(_hitColliders);
-            AttackSpeed = _character.AttackSpeed;
+            _atkSpeedCooldown = _character.AttackSpeed;
         }
         else
         {
@@ -70,19 +68,9 @@ public class PlayerAttack : MonoBehaviour, IAttack
 
     public void DelayAttack()
     {
-        AttackSpeed -= Time.deltaTime;
+        _atkSpeedCooldown -= Time.deltaTime;
     }
 
-    public bool AttackEnemy()
-    {
-        if (_target == null) return false;
-
-        if (_target.gameObject.TryGetComponent(out IDamageable damage))
-        {
-            damage.GetDamage(Damage);
-        }
-        return true;
-    }
 
     public void Detect()
     {
@@ -113,6 +101,7 @@ public class PlayerAttack : MonoBehaviour, IAttack
     {
         transform.LookAt(_target);
     }
+
 
     public void Attack(Collider[] enemy)
     {

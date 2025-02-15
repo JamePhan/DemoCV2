@@ -13,6 +13,7 @@ public class UpgradeManager : Singleton<UpgradeManager>
     public      Button              _btnUpgrade;
     public      GameObject          _upgradePanel;
     public      GameObject          _content;
+    public      Button              _btnClose;
 
     [Header("Other")]
     public      float               _radius;
@@ -24,11 +25,7 @@ public class UpgradeManager : Singleton<UpgradeManager>
         _radius = 3f;
         _load = new ResourcesLoad();
         ListUtility = new List<UtilitySO>(_load.LoadAllUtility());
-    }
-
-    private void OnEnable()
-    {
-        
+        _btnClose.onClick.AddListener(() => _upgradePanel.SetActive(false));
     }
 
     private void FixedUpdate()
@@ -50,7 +47,8 @@ public class UpgradeManager : Singleton<UpgradeManager>
     public void OpenUpgradePanel()
     {
         _upgradePanel.SetActive(true);
-        InitUtilities();
+        if (_content.transform.childCount == 0) InitUtilities();
+        else UpdateUtilities();
     }
 
     public void InitUtilities()
@@ -60,8 +58,26 @@ public class UpgradeManager : Singleton<UpgradeManager>
             AssetsManager.Instance.InitPrefab(AssetsManager.Instance._utility, (GameObject utility) => 
             {
                 utility.transform.SetParent(_content.transform);
-                utility.transform.GetComponent<UtilityUI>().SetUtilityUI(7 ,utilitySO);
+                utility.transform.GetComponent<UtilityUI>().SetUtilityUI(utilitySO);
             });
         }
     }
+
+    public void UpdateUtilities()
+    {
+        foreach (Transform utility in _content.transform)
+        {
+            utility.transform.GetComponent<UtilityUI>().UpdateCurrentStats();
+            utility.transform.GetComponent<UtilityUI>().CheckPrice();
+        }
+    }
+
+    public void UpdateAllButton()
+    {
+        foreach (Transform utility in _content.transform)
+        {
+            utility.transform.GetComponent<UtilityUI>().CheckPrice();
+        }
+    }
+
 }

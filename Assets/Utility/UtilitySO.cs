@@ -4,6 +4,6 @@ using UnityEngine;
 public class UtilitySO : ScriptableObject
 {
     public      Sprite               Icon;
-    public      int                  UpgradeStat;
+    public      float                UpgradeStat;
     public      int                  Price;
 }

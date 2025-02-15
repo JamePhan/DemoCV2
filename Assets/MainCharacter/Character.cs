@@ -38,4 +38,21 @@ public class Character
             _charSO.MoveSpeed, _charSO.AttackRange, _charSO.PercentExpBonusEarn, _charSO.Ability1, _charSO.Ability2);
     }
 
+    public Character Clone()
+    {
+        return new Character
+        {
+            Name = this.Name,
+            Health = this.Health,
+            Damage = this.Damage,
+            AttackSpeed = this.AttackSpeed,
+            MoveSpeed = this.MoveSpeed,
+            AttackRange = this.AttackRange,
+            NumberTarget = this.NumberTarget,
+            PercentExpBonusEarn = this.PercentExpBonusEarn,
+            Ability1 = this.Ability1,
+            Ability2 = this.Ability2,
+        };
+    }
+
 }

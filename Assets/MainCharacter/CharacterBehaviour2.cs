@@ -16,9 +16,10 @@ public class CharacterBehaviour2 : Singleton<CharacterBehaviour2>, IDamageable
     public HpbarFollow          _hpbarFollow;
     public LayerMask            _layerMask;
 
-    public int                  Health { get ; set; }
+    public Character            _character;
+    public int                  Health { get => _character.Health; set => _character.Health = value; }
     public int                  currentHealth;
-    
+
     [Header("Check")]
     public bool                 _isDead;
 
@@ -26,11 +27,11 @@ public class CharacterBehaviour2 : Singleton<CharacterBehaviour2>, IDamageable
 
     public void Init(Character character)
     {
-        this.Health = character.Health;
-        this.currentHealth = this.Health;
+        _character              = character.Clone();
+        this.currentHealth      = this.Health;
 
-        InitMovement(character);
-        InitAttack(character);
+        InitMovement(_character);
+        InitAttack(_character);
         InitHPBar();
 
         _animController = new AnimationController(_playerAnim);
@@ -106,5 +107,27 @@ public class CharacterBehaviour2 : Singleton<CharacterBehaviour2>, IDamageable
         yield return new WaitForSeconds(1.5f);
         SoundManager.Instance.UI_Win();
         RewardManager.Instance.GetRandomReward();
+    }
+
+    public void IncreaseHealth(float hpBonus)
+    {
+        _character.Health += (int) hpBonus;
+        this.currentHealth += (int) hpBonus;
+        _hpbarFollow.UpdateHpBar(this.currentHealth, this.Health);
+    }
+
+    public void IncreaseDamage(float bonus)
+    {
+        _character.Damage += (int) bonus;
+    }
+
+    public void IncreaseAtkRange(float bonus)
+    {
+        _character.AttackRange += bonus;
+    }
+
+    public void IncreaseAtkSpeed(float bonus)
+    {
+        _character.AttackSpeed -= bonus;
     }
 }

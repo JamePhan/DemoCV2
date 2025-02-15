@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4d9702543f9c814983372f56f976b53, type: 3}
   m_Name: Damage
   m_EditorClassIdentifier: 
-  _icon: {fileID: -5365800500679840340, guid: 367b48fad0f03a441abdf76e845f28ae, type: 3}
-  _upgradeStat: 20
-  _price: 100
+  Icon: {fileID: -5365800500679840340, guid: 367b48fad0f03a441abdf76e845f28ae, type: 3}
+  UpgradeStat: 10
+  Price: 75

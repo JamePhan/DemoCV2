@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4d9702543f9c814983372f56f976b53, type: 3}
   m_Name: Hp
   m_EditorClassIdentifier: 
-  _icon: {fileID: 21300000, guid: 4c1ba64dd18c5b448b024ead36299cac, type: 3}
-  _upgradeStat: 100
-  _price: 50
+  Icon: {fileID: 21300000, guid: 4c1ba64dd18c5b448b024ead36299cac, type: 3}
+  UpgradeStat: 100
+  Price: 75

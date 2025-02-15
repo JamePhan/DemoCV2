@@ -25,7 +25,7 @@ public class GameData
 
     public GameData()
     {
-        Gold = 0;
+        Gold = 10000;
         Diamond = 0;
         CreateNewListInventory();
         CreateNewListCharacter();
